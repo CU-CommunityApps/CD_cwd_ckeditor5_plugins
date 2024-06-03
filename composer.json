@@ -1,5 +1,5 @@
 {
-    "name": "cubear/cwd_ckeditor_plugins",
+    "name": "cubear/cwd_ckeditor5_plugins",
     "description": "Drupal Custom module to extend functionality ckeditor5. Adds custom plugin functionality to enhance the editor experience.",
     "type": "drupal-custom-module",
     "license": "GPL-3.0-or-later",
