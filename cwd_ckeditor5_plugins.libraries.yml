@@ -1,0 +1,64 @@
+insertbeginning:
+  js:
+    js/build/insertbeginning.js: { preprocess: false, minified: true }
+  dependencies:
+    - ckeditor5/ckeditor5
+
+# Loaded in the text format configuration form to provide styling for the icon
+# used in toolbar config.
+admin.insertbeginning:
+  css:
+    theme:
+      css/insertbeginning.admin.css: { }
+
+insertatend:
+  js:
+    js/build/insertatend.js: { preprocess: false, minified: true }
+  dependencies:
+    - ckeditor5/ckeditor5
+
+# Loaded in the text format configuration form to provide styling for the icon
+# used in toolbar config.
+admin.insertatend:
+  css:
+    theme:
+      css/insertatend.admin.css: { }
+
+insertafterelement:
+  js:
+    js/build/insertafterelement.js: { preprocess: false, minified: true }
+  dependencies:
+    - ckeditor5/ckeditor5
+
+# Loaded in the text format configuration form to provide styling for the icon
+# used in toolbar config.
+admin.insertafterelement:
+  css:
+    theme:
+      css/insertafterelement.admin.css: { }
+
+whale:
+  js:
+    js/build/whale.js: { preprocess: false, minified: true }
+  dependencies:
+    - ckeditor5/ckeditor5
+
+# Loaded in the text format configuration form to provide styling for the icon
+# used in toolbar config.
+admin.whale:
+  css:
+    theme:
+      css/whale.admin.css: { }
+
+aside:
+  js:
+    js/build/aside.js: { preprocess: false, minified: true }
+  dependencies:
+    - ckeditor5/ckeditor5
+
+# Loaded in the text format configuration form to provide styling for the icon
+# used in toolbar config.
+admin.aside:
+  css:
+    theme:
+      css/aside.admin.css: { }

@@ -1,0 +1,5 @@
+name: 'CWD Ckeditor5 Plugins'
+type: module
+description: 'module to hold ckeditor 5 plugins'
+package: Custom
+core_version_requirement: ^10 || ^11

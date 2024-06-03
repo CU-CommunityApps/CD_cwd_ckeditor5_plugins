@@ -1,0 +1,94 @@
+# @see core/modules/ckeditor5/ckeditor5.ckeditor5.yml
+# @see https://www.drupal.org/project/ckeditor5_dev
+cwd_ckeditor5_plugins_insertbeginning:
+  # Configuration that will be sent to CKEditor 5 JavaScript plugins.
+  ckeditor5:
+    plugins:
+      - insertbeginning.Insertbeginning
+
+  # Configuration that will be used directly by Drupal.
+  drupal:
+    label: 'Insert At Beginning'
+    library: cwd_ckeditor5_plugins/insertbeginning
+    admin_library: cwd_ckeditor5_plugins/admin.insertbeginning
+    toolbar_items:
+      insertbeginning:
+        label: 'Insert At Beginning'
+    # The plugin does not provide elements.
+    elements: false
+
+# @see core/modules/ckeditor5/ckeditor5.ckeditor5.yml
+# @see https://www.drupal.org/project/ckeditor5_dev
+cwd_ckeditor5_plugins_insertatend:
+  # Configuration that will be sent to CKEditor 5 JavaScript plugins.
+  ckeditor5:
+    plugins:
+      - insertatend.Insertatend
+
+  # Configuration that will be used directly by Drupal.
+  drupal:
+    label: 'Insert At End'
+    library: cwd_ckeditor5_plugins/insertatend
+    admin_library: cwd_ckeditor5_plugins/admin.insertatend
+    toolbar_items:
+      insertatend:
+        label: 'Insert At End'
+    # The plugin does not provide elements.
+    elements: false
+
+# @see core/modules/ckeditor5/ckeditor5.ckeditor5.yml
+# @see https://www.drupal.org/project/ckeditor5_dev
+cwd_ckeditor5_plugins_insertafterelement:
+  # Configuration that will be sent to CKEditor 5 JavaScript plugins.
+  ckeditor5:
+    plugins:
+      - insertafterelement.Insertafterelement
+
+  # Configuration that will be used directly by Drupal.
+  drupal:
+    label: 'Insert After Element'
+    library: cwd_ckeditor5_plugins/insertafterelement
+    admin_library: cwd_ckeditor5_plugins/admin.insertafterelement
+    toolbar_items:
+      insertafterelement:
+        label: 'Insert After Element'
+    # The plugin does not provide elements.
+    elements: false
+
+# @see core/modules/ckeditor5/ckeditor5.ckeditor5.yml
+# @see https://www.drupal.org/project/ckeditor5_dev
+cwd_ckeditor5_plugins_whale:
+  # Configuration that will be sent to CKEditor 5 JavaScript plugins.
+  ckeditor5:
+    plugins:
+      - whale.Whale
+
+  # Configuration that will be used directly by Drupal.
+  drupal:
+    label: 'Whale'
+    library: cwd_ckeditor5_plugins/whale
+    admin_library: cwd_ckeditor5_plugins/admin.whale
+    toolbar_items:
+      whale:
+        label: 'Whale'
+    # The plugin does not provide elements.
+    elements: false
+
+# @see core/modules/ckeditor5/ckeditor5.ckeditor5.yml
+# @see https://www.drupal.org/project/ckeditor5_dev
+cwd_ckeditor5_plugins_aside:
+  # Configuration that will be sent to CKEditor 5 JavaScript plugins.
+  ckeditor5:
+    plugins:
+      - aside.Aside
+
+  # Configuration that will be used directly by Drupal.
+  drupal:
+    label: 'Aside'
+    library: cwd_ckeditor5_plugins/aside
+    admin_library: cwd_ckeditor5_plugins/admin.aside
+    toolbar_items:
+      aside:
+        label: 'Aside'
+    # The plugin does not provide elements.
+    elements: false

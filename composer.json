@@ -1,0 +1,17 @@
+{
+    "name": "cubear/cwd_ckeditor_plugins",
+    "description": "Drupal Custom module to extend functionality ckeditor5. Adds custom plugin functionality to enhance the editor experience.",
+    "type": "drupal-custom-module",
+    "license": "GPL-3.0-or-later",
+    "homepage": "https://it.cornell.edu/custom-web",
+    "authors": [
+        {
+            "name": "Bill Juda",
+            "email": "wfj24@cornell.edu",
+            "role": "Author"
+        }
+    ],
+    "support": {},
+    "minimum-stability": "dev",
+    "require": {}
+}
