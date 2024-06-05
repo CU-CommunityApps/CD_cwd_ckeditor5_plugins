@@ -19,6 +19,7 @@ export default class Insertafterelement extends Plugin {
 
       const write = writer => {
         let blocks = editor.model.document.selection.getSelectedBlocks();
+        blocks = Array.from(blocks);
         blocks.forEach(element => {
           let isItRoot = element.parent;
           let elementBeforeRoot = element;
